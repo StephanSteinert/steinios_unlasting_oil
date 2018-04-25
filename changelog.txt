@@ -1,0 +1,41 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 30. 06. 2016
+  Features:
+    - Crude oil is changed to depletable and gets removed if empty.
+---------------------------------------------------------------------------------------------------
+Version: 0.14.1
+Date: 29. 08. 2016
+  Changes:
+    - Update to 0.14
+---------------------------------------------------------------------------------------------------
+Version: 0.14.2
+Date: 08. 09. 2016
+  Features:
+    - Added config options for crude oil.
+    - Added config options for Bob's Ground Water and Lithia Water
+    - Added config options for Angel's Fissure and Natural Gas
+---------------------------------------------------------------------------------------------------
+Version: 0.15.0
+Date: 03. 05. 2017
+  Changes:
+    - Update to 0.15
+  Features:
+    - Moved the config options to the ingame "Settings -> Mods" menu.
+---------------------------------------------------------------------------------------------------
+Version: 0.16.0
+Date: 30. 12. 2017
+  Changes:
+    - Update to 0.16
+---------------------------------------------------------------------------------------------------
+Version: 0.16.1
+Date: 24. 03. 2018
+  Features:
+    - Added settings for Angel's Infinte Ores for reverting the ore patch to depletable but keep the acid requirement.
+    - Added setting for Angel's Infinite Coal for reverting the ore patch to depletable just to fit my play style.
+    - Added settings for MadClown's Infinte Ores for reverting the ore patch to depletable but keep the acid requirement.
+---------------------------------------------------------------------------------------------------
+Version: 0.16.2
+Date: 26. 03. 2018
+  Changes:
+    - Settings for crude oil, Bob's ground water and lithia water and Angel's fissure and natural gas are no enabled by default to prevent bug reports.
