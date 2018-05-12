@@ -1,13 +1,13 @@
 	-- prepare resource array
 	local suo_resources = {}
 	
-	table.insert(suo_resources, {dependency = "base", name = "crude-oil", default = true})							-- Vanilla crude oil
+	table.insert(suo_resources, {dependency = "base", name = "crude-oil", default = true, fluid = true})							-- Vanilla crude oil
 	
-	table.insert(suo_resources, {dependency = "bobores", name = "ground-water", default = true})					-- Bob's ground water
-	table.insert(suo_resources, {dependency = "bobores", name = "lithia-water", default = true})					-- Bob's lithia water
+	table.insert(suo_resources, {dependency = "bobores", name = "ground-water", default = true, fluid = true})						-- Bob's ground water
+	table.insert(suo_resources, {dependency = "bobores", name = "lithia-water", default = true, fluid = true})						-- Bob's lithia water
 	
-	table.insert(suo_resources, {dependency = "angelsrefining", name = "angels-fissure", default = true})			-- Angel's Refining fissure
-	table.insert(suo_resources, {dependency = "angelspetrochem", name = "angels-natural-gas", default = true})		-- Angel's Petrochem natural gas
+	table.insert(suo_resources, {dependency = "angelsrefining", name = "angels-fissure", default = true, fluid = true})				-- Angel's Refining fissure
+	table.insert(suo_resources, {dependency = "angelspetrochem", name = "angels-natural-gas", default = true, fluid = true})		-- Angel's Petrochem natural gas
 
 	-- Angel's infinite ores
 	table.insert(suo_resources, {dependency = "angelsinfiniteores", name = "infinite-coal"})

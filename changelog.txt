@@ -39,3 +39,8 @@ Version: 0.16.2
 Date: 26. 03. 2018
   Changes:
     - Settings for crude oil, Bob's ground water and lithia water and Angel's fissure and natural gas are no enabled by default to prevent bug reports.
+---------------------------------------------------------------------------------------------------
+Version: 0.16.3
+Date: 12. 05. 2018
+  Features:
+    - Added a new option to reduce the yield of fluid patches due changing the mined amount each intervall.

@@ -19,17 +19,35 @@ for _, resource in pairs(suo_resources) do
 
   if mods[resource.dependency] then
     table.insert(d, 
-    {
-      type = "bool-setting",
-      name = "suo_" .. resource.name,
-      order = order,
-      setting_type = "startup",
-      default_value = default_value,
-      localised_name = {"entity-name."..resource.name},
-      localised_description = {"mod-setting-description.suo_description"}
-    })
-
+      {
+        type = "bool-setting",
+        name = "suo_" .. resource.name,
+        order = order,
+        setting_type = "startup",
+        default_value = default_value,
+        localised_name = {"entity-name.".. resource.name},
+        localised_description = {"mod-setting-description.suo_description"}
+      }
+    )
+    
     x = x + 1
+
+    if resource.fluid then
+      table.insert(d,
+        {
+          type = "int-setting",
+          name = "suo_" .. resource.name .. "_factor",
+          order = order,
+          setting_type = "startup",
+          default_value = 1,
+          minimum_value = 1,
+          localised_name = {"mod-setting-name.suo_factor", {"entity-name.".. resource.name}},
+          localised_description = {"mod-setting-description.suo_factor_description"}
+        }
+      )
+
+      x = x + 1
+    end
   end
 end
 
