@@ -44,3 +44,8 @@ Version: 0.16.3
 Date: 12. 05. 2018
   Features:
     - Added a new option to reduce the yield of fluid patches due changing the mined amount each intervall.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+Date: 02. 03. 2019
+  Features:
+    - Update to 0.17

@@ -1,11 +1,11 @@
 {
 	"name": "steinios_unlasting_oil",
-	"version": "0.16.3",
+	"version": "0.17.0",
 	"title": "steinios unlasting oil",
 	"author": "steinio",
 	"contact": "steinio @ https://forums.factorio.com/",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=94&t=25238",
 	"description": "Oil patches vanish if depleted. Also supports Angel's and Bob's gases and liquids.",
 	"dependencies": ["base", "? angelsinfiniteores", "? angelsrefining", "? angelspetrochem", "? bobores", "? Clowns-Extended-Minerals", "? Noxys_Extra_Settings_Info"],
-	"factorio_version": "0.16"
+	"factorio_version": "0.17"
 }
