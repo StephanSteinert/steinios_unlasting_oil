@@ -9,6 +9,8 @@
 	table.insert(suo_resources, {dependency = "angelsrefining", name = "angels-fissure", default = true, fluid = true})				-- Angel's Refining fissure
 	table.insert(suo_resources, {dependency = "angelspetrochem", name = "angels-natural-gas", default = true, fluid = true})		-- Angel's Petrochem natural gas
 
+	table.insert(suo_resources, {dependency = "cargo-ships", name = "deep_oil", default = true, fluid = true})						-- Cargo Ships Deep Sea Oil
+
 	-- Angel's infinite ores
 	table.insert(suo_resources, {dependency = "angelsinfiniteores", name = "infinite-coal"})
 
