@@ -44,3 +44,23 @@ Version: 0.16.3
 Date: 12. 05. 2018
   Features:
     - Added a new option to reduce the yield of fluid patches due changing the mined amount each intervall.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+Date: 02. 03. 2019
+  Features:
+    - Update to 0.17
+---------------------------------------------------------------------------------------------------
+Version: 0.17.1
+Date: 16. 03. 2019
+  Features:
+    - Added settings for Cargo Ships' Deep Sea Oil
+---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+Date: 18. 06. 2019
+  Features:
+    - Added settings for Pyanodon's Tar Pit, Oil patches and Natural Gas
+---------------------------------------------------------------------------------------------------
+Version: 0.18.0
+Date: 18. 06. 2019
+  Features:
+    - Update to 0.18

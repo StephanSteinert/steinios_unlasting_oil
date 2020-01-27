@@ -9,6 +9,15 @@
 	table.insert(suo_resources, {dependency = "angelsrefining", name = "angels-fissure", default = true, fluid = true})				-- Angel's Refining fissure
 	table.insert(suo_resources, {dependency = "angelspetrochem", name = "angels-natural-gas", default = true, fluid = true})		-- Angel's Petrochem natural gas
 
+	table.insert(suo_resources, {dependency = "cargo-ships", name = "deep_oil", default = true, fluid = true})						-- Cargo Ships Deep Sea Oil
+	
+	table.insert(suo_resources, {dependency = "pypetroleumhandling", name = "natural-gas", default = true, fluid = true})			-- Pyanodon's Natural Gas
+	table.insert(suo_resources, {dependency = "pypetroleumhandling", name = "tar-patch", default = true, fluid = true})				-- Pyanodon's Tar Patch
+	table.insert(suo_resources, {dependency = "pypetroleumhandling", name = "oil-mk01", default = true, fluid = true})				-- Pyanodon's Oil Mk01
+	table.insert(suo_resources, {dependency = "pypetroleumhandling", name = "oil-mk02", default = true, fluid = true})				-- Pyanodon's Oil Mk02
+	table.insert(suo_resources, {dependency = "pypetroleumhandling", name = "oil-mk03", default = true, fluid = true})				-- Pyanodon's Oil Mk03
+	table.insert(suo_resources, {dependency = "pypetroleumhandling", name = "oil-mk04", default = true, fluid = true})				-- Pyanodon's Oil Mk04
+
 	-- Angel's infinite ores
 	table.insert(suo_resources, {dependency = "angelsinfiniteores", name = "infinite-coal"})
 
